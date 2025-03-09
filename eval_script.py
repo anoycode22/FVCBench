@@ -180,7 +180,6 @@ if __name__ == "__main__":
     Inconsistency_Rate = incorrect_count / (total-uncertain_count)
     Coverage_Rate = 1- uncertain_count / total
 
-    # 输出结果
     print(f"AR: {Accuracy:.2%}")
     print(f"IR: {Inconsistency_Rate:.2%}")
     print(f"CR: {Coverage_Rate:.2%}")
